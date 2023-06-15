@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Details</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        .block {
+            font-size: 14px;
+            color: black;
+            background-color: #c7d1f3;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 20px ;
+            font-family: 'Montserrat', sans-serif;
+            height: 400px;
+            width: 300px;
+        }
+
+        .info {
+            color: black;
+            background-color: #c7d1f3;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 50px ;
+            padding-bottom: 20px ;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        button {
+            background-color: #7ed9d5;
+            font-size: 20px;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            height: 50px;
+            width: 250px;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 20px;
+            transition: 1s;
+        }
+
+        button:hover {
+            transform: scale(110%);
+            transition: 1s;
+        }
+
+        #back {
+            margin-right: 50px;
+        }
+
+        #main {
+            position: absolute;
+            right: 0;
+            margin-right: 60px;
+        }
+
+        .title {
+            margin-left: 50px;
+            text-align: left;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #container {
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+<h1 class="title"><button id="back">Back</button>Post Details<button id="main">Main Page</button></h1>
+<div id="container"></div>
+<script src="main-3.js"></script>
+</body>
+</html>
